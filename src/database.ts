@@ -10,7 +10,7 @@ const {
   DB_PASSWORD
 } = process.env;
 
-const client = new Pool({
+const client: Pool = new Pool({
   host: HOST,
   database: DATABASE,
   user: DB_USER,

@@ -7,7 +7,8 @@
     "start": "node src/server.ts",
     "watch": "tsc-watch --esModuleInterop src/server.ts --outDir ./dist --onSuccess 'node ./dist/server.js'",
     "test": "jasmine-ts",
-    "tsc": "tsc"
+    "tsc": "tsc",
+    "build": "npx tsc"
   },
   "author": "Udacity",
   "license": "ISC",
@@ -25,9 +26,11 @@
   },
   "devDependencies": {
     "@types/jasmine": "^3.6.3",
+    "@types/supertest": "^2.0.11",
     "jasmine": "^3.6.4",
     "jasmine-spec-reporter": "^6.0.0",
     "jasmine-ts": "^0.3.0",
+    "supertest": "^6.1.6",
     "ts-node": "^9.1.1",
     "tsc-watch": "^4.2.9"
   }
