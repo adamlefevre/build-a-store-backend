@@ -1,5 +1,5 @@
 CREATE TABLE orders (
-    id integer primary key generated always as identity,
+    id serial primary key,
     userid integer,
     status varchar(50)
 );

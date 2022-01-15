@@ -1,5 +1,5 @@
 CREATE TABLE product_orders (
-    id integer primary key generated always as identity,
+    id serial primary key,
     orderid integer,
     productid integer
 );

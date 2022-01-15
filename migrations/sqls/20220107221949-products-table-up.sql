@@ -1,5 +1,5 @@
 CREATE TABLE products (
-    id integer primary key generated always as identity,
+    id serial primary key,
     name varchar(100),
     price numeric,
     category varchar(50)

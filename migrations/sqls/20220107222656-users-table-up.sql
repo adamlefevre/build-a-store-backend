@@ -1,5 +1,5 @@
 CREATE TABLE users (
-    id integer primary key generated always as identity,
+    id serial primary key,
     firstname varchar(100),
     lastname varchar(100),
     password varchar(50)

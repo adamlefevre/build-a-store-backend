@@ -1,5 +1,40 @@
 # Storefront Backend Project
 
+## my_store_db
+Create local database with tables:
+#### Products
+-  id: varchar
+- name: varchar
+- price: number
+- [OPTIONAL] category: varchar
+
+#### User
+- id: varchar
+- firstName: varchar
+- lastName: varchar
+- password: varchar
+
+#### Orders
+- id: varchar
+- user_id: varchar
+- status of order (active or complete): varchar
+
+#### Product_Orders
+- id: varchar
+- orderid: varchar (fk relationship)
+- productid: varchar (fk relationship)
+
+Create database user in environment variables:
+user: store_user
+
+Grant ownership:
+ALTER DATABASE "my_store_db" OWNER TO "store_user";
+
+Insert test values:
+INSERT INTO products (name, price, category) VALUES ('Test NFT', 1.5, 'Super NFT');
+INSERT INTO prodcuts (name, price, category) VALUES ('Gorrilla NFT', 2.0, 'Super NFT');
+
+-----------------------
 ## Getting Started
 
 This repo contains a basic Node and Express app to get you started in constructing an API. To get started, clone this repo and run `yarn` in your terminal at the project root.

@@ -806,7 +806,7 @@
   dependencies:
     "yargs" "^16.2.0"
 
-"jasmine@^3.6.4", "jasmine@>=3.4":
+"jasmine@^3.99.0", "jasmine@>=3.4":
   "integrity" "sha512-YIThBuHzaIIcjxeuLmPD40SjxkEcc8i//sGMDKCgkRMVgIwRJf5qyExtlJpQeh7pkeoBSOe6lQEdg+/9uKg9mw=="
   "resolved" "https://registry.npmjs.org/jasmine/-/jasmine-3.99.0.tgz"
   "version" "3.99.0"
