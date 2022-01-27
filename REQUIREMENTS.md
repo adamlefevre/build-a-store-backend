@@ -14,7 +14,7 @@ These are the notes from a meeting with the frontend developer that describe wha
 #### Users
 - Index [token required]: 'users/' [GET]
 - Show [token required]: 'users/:id' [GET]
-- Create N[token required]: 'users/' [POST]
+- Create [token required]: 'users/' [POST]
 
 #### Orders
 - Current Order by user (args: user id)[token required]: 'orders/:id' [GET]
@@ -22,7 +22,7 @@ These are the notes from a meeting with the frontend developer that describe wha
 
 ## Data Shapes
 #### Product
--  id: varchar
+- id: varchar
 - name: varchar
 - price: number
 - [OPTIONAL] category: varchar
